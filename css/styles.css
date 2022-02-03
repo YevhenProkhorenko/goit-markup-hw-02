@@ -1,12 +1,12 @@
 .page {
   background-color: #e5e5e5;
-  color: rgba(117, 117, 117, 1);
+  --primary-text-color
 }
 .list {
   list-style: none;
 }
 :root {
-  --primary-text-color: #757575;
+  --primary-text-color: rgba(117, 117, 117, 1);
   --primary-title-color: #212121;
   --primary-accent-color: #2196f3;
   --primary-background-color: #e5e5e5;
