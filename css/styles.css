@@ -1,0 +1,12 @@
+.page {
+  background-color: #e5e5e5;
+  color: 757575;
+}
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --primary-accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --footer-color: #2f303a;
+}
