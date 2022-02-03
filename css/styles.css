@@ -2,6 +2,9 @@
   background-color: #e5e5e5;
   color: 757575;
 }
+ul {
+  list-style: none;
+}
 :root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
