@@ -2,10 +2,11 @@
   color: rgba(117, 117, 117, 1);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .list {
   list-style: none;
+}
+.link {
   text-decoration: none;
 }
 .tittle-color {
