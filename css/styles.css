@@ -2,6 +2,7 @@
   color: rgba(117, 117, 117, 1);
   font-family: "Roboto", sans-serif;
   letter-spacing: 3%;
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -17,8 +18,18 @@
 }
 .logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+.navigation {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: Top;
+  letter-spacing: 2%;
 }
 /* --secondary-text-color: rgba(117, 117, 117, 1); */
 /* --primary-accent-color: #2196f3; */
