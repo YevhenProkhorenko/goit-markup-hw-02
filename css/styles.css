@@ -1,7 +1,7 @@
 .page {
   color: rgba(117, 117, 117, 1);
   font-family: "Roboto", sans-serif;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .list {
@@ -24,12 +24,9 @@
 }
 .navigation {
   font-weight: 500;
-  font-style: medium;
   font-size: 14px;
   line-height: 1.14;
-  text-align: left;
-  vertical-align: Top;
-  letter-spacing: 2;
+  letter-spacing: 0.02em;
 }
 /* --secondary-text-color: rgba(117, 117, 117, 1); */
 /* --primary-accent-color: #2196f3; */
