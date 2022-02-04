@@ -1,5 +1,7 @@
 .page {
   color: rgba(117, 117, 117, 1);
+  font-family: 'Roboto', sans-serif; 
+  }
 }
 .list {
   list-style: none;
