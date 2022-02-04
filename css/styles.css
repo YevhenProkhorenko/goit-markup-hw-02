@@ -15,6 +15,11 @@
 .accent {
   color: #2196f3;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
 /* --secondary-text-color: rgba(117, 117, 117, 1); */
 /* --primary-accent-color: #2196f3; */
 /* --primary-background-color: #e5e5e5;-- */
