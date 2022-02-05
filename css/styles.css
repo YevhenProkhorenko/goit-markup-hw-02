@@ -78,23 +78,35 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: #212121;
 }
 .secondary-tittle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: #212121;
 }
+/*==============SECTION TEAM==============*/
+
 .section-team {
   background-color: #f5f4fa;
 }
 
+.team-initials {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
 .accent {
   color: #2196f3;
 }
