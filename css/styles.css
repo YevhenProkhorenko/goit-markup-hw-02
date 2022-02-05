@@ -123,6 +123,7 @@
 /* --primary-background-color: #e5e5e5;-- */
 /* secondary-background-color: #f5f4fa; */
 /* footer-color: #2f303a; */
+
 /*==============PORTFOLIO CSS==============*/
 .portfolio-button {
   font-family: inherit;
@@ -143,4 +144,9 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+}
+.portfolio-paragraph {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
