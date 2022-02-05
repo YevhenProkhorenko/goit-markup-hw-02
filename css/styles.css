@@ -14,7 +14,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #212121;
 }
 .navigation {
   font-weight: 500;
@@ -32,15 +32,31 @@
 .main-tittle {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-
-  /* or 136% */
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #212121;
 
   /* color: #ffffff; */
 }
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+  background: #ffffff;
+}
+
+.hero .btn-hover:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+
 .primary-tittle {
   font-weight: 700;
   font-size: 36px;
