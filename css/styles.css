@@ -36,7 +36,7 @@
 }
 /*==============MAIN CSS==============*/
 .list {
-  list-style: none;
+  list-style-type: none;
 }
 .link {
   text-decoration: none;
@@ -61,13 +61,13 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #212121;
-  background: #ffffff;
+  color: #ffffff;
+  background: #2196f3;
 }
 
 .hero .btn-hover:hover {
   color: #ffffff;
-  background: #2196f3;
+  background: #188ce8;
 }
 
 .primary-tittle {
@@ -94,7 +94,20 @@
 }
 
 .footer-text {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
   font-style: normal;
+  color: #ffffff;
+  background: #2f303a;
+  text-decoration: none;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-text:hover,
+.footer-text:focus {
+  color: #2196f3;
 }
 /* --secondary-text-color: rgba(117, 117, 117, 1); */
 /* --primary-accent-color: #2196f3; */
