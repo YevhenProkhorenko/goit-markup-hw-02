@@ -25,6 +25,9 @@
 .navigation:focus {
   color: #2196f3;
 }
+.navigation.current {
+  color: #2196f3;
+}
 
 .contacts {
   font-family: inherit;
@@ -49,9 +52,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #212121;
-
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .button {
   font-family: inherit;
