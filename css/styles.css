@@ -6,14 +6,10 @@
   letter-spacing: 0.03em;
 }
 /*==============HEADER CSS==============*/
-.header-color {
-  background: #ffffff;
-}
 .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 .navigation {
@@ -21,6 +17,22 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.navigation:hover,
+.navigation:focus {
+  color: #2196f3;
+}
+
+.contacts {
+  font-family: inherit;
+  color: #757575;
+  text-decoration: none;
+}
+.contacts:focus,
+.contacts:hover {
+  color: #2196f3;
 }
 /*==============MAIN CSS==============*/
 .list {
@@ -41,6 +53,7 @@
   /* color: #ffffff; */
 }
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -80,6 +93,9 @@
   color: #2196f3;
 }
 
+.footer-text {
+  font-style: normal;
+}
 /* --secondary-text-color: rgba(117, 117, 117, 1); */
 /* --primary-accent-color: #2196f3; */
 /* --primary-background-color: #e5e5e5;-- */
