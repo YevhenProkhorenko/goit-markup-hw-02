@@ -4,6 +4,7 @@
   color: #757575;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  background: #ffffff;
 }
 /*==============HEADER CSS==============*/
 .logo {
@@ -88,6 +89,9 @@
 
   color: #212121;
 }
+.section-team {
+  background-color: #f5f4fa;
+}
 
 .accent {
   color: #2196f3;
@@ -108,6 +112,12 @@
 .footer-text:hover,
 .footer-text:focus {
   color: #2196f3;
+}
+.footer-color {
+  background: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
 }
 /* --secondary-text-color: rgba(117, 117, 117, 1); */
 /* --primary-accent-color: #2196f3; */
