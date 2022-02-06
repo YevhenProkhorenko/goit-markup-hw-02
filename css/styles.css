@@ -1,10 +1,14 @@
+:root {
+  --background-page-color: #ffffff;
+  --primary-text-color: #757575;
+}
 /*==============STUDIO PAGE==============*/
 /*==============BODY CSS==============*/
 .page {
-  color: #757575;
+  color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  background: #ffffff;
+  background: var(--background-page-color);
 }
 /*==============HEADER CSS==============*/
 .logo {
@@ -32,7 +36,7 @@
 
 .contacts {
   font-family: inherit;
-  color: #757575;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 .contacts:focus,
@@ -66,6 +70,7 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  cursor: pointer;
 }
 
 .hero .btn-hover:hover {
@@ -146,6 +151,7 @@
   line-height: 1.62;
   text-align: center;
   color: #212121;
+  cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -162,5 +168,5 @@
 .portfolio-paragraph {
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--primary-text-color);
 }
