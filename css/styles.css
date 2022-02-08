@@ -140,7 +140,7 @@
   letter-spacing: 0.03em;
 }
 /*==============FOOTER SECTION==============*/
-address {
+.address {
   font-style: normal;
 }
 .footer-text {
