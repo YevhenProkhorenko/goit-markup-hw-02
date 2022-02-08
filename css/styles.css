@@ -94,7 +94,7 @@
   cursor: pointer;
 }
 
-.hero .btn-hover:hover {
+.button:hover {
   color: var(--primary-page-color);
   background: var(--background-button-color);
 }
